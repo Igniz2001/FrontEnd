@@ -4,8 +4,61 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial;
+    background-image: url('Matrix.gif');
+}
+
 .form-login {
     width: 400px;
-    height: 340px;
+    height: 370px;
     background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px 30px;
+    border-top: 4px solid #067900;
+    color: white;
+}
+
+.form-login h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #067900;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #f8f8f8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #067900;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.form-login p{
+    height: 30px;
+    text-align: center;
+}
+
+.form-login a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover{
+    text-decoration: underline;
 }
